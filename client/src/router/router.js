@@ -1,11 +1,17 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import AppVue from '@/App.vue'
+import HomePage from '@/components/HomePage/HomePage'
 
 const routes = [
   {
     path: '/',
     name: 'home',
-    component: AppVue
+    component: HomePage
+  },
+
+  {
+    path: '/basket',
+    name: 'basket',
+    component: () => import('@/components/CustomerBasket/CustomerBasket.vue'),
   },
 ]
 

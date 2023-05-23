@@ -1,60 +1,483 @@
+///-----font weight---------
+.thin {
+  font-weight: 100;
+}
+
+.extra-light {
+font-weight: 200;
+}
+
+.light {
+font-weight: 300;
+}
+
+.regular {
+font-weight: 400;
+}
+
+.medium {
+font-weight: 500;
+}
+
+.semi-bold {
+font-weight: 600;
+}
+
+.bold {
+font-weight: 700;
+}
+
+.extra-bold {
+font-weight: 800;
+}
+
+.heavy {
+font-weight: 900;
+}
+
+
+
 //------font size  ----------------
 .font {
-    &-sm {
-      font-size: 10px;
-      line-height: 12px;
+  &-sm {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  &-lt {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  &-md {
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  &-reg {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  &-big {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  &-lg {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  &-xl {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  &-xxl {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  &-xxxl {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  &-hg {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  &-hgx {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  &-collosal {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  &-collosalX {
+    font-size: 42px;
+  }
+}
+
+// ---- padding-----------------
+.padd {
+  &--unset {
+    padding: 0;
+  }
+  &--vert {
+    &_sm {
+      padding-top: 5px;
+      padding-bottom: 5px;
     }
-  
-    &-lt {
-      font-size: 12px;
-      line-height: 15px;
+    &_lt {
+      padding-top: 10px;
+      padding-bottom: 10px;
     }
-  
-    &-md {
-      font-size: 13px;
-      line-height: 16px;
+    &_md {
+      padding-top: 15px;
+      padding-bottom: 15px;
     }
-  
-    &-reg {
-      font-size: 14px;
-      line-height: 17px;
+    &_big {
+      padding-top: 20px;
+      padding-bottom: 20px;
     }
-  
-    &-big {
-      font-size: 15px;
-      line-height: 18px;
+    &_lg {
+      padding-top: 25px;
+      padding-bottom: 25px;
     }
-    &-lg {
-      font-size: 16px;
-      line-height: 20px;
+    &_xl {
+      padding-top: 30px;
+      padding-bottom: 30px;
     }
-  
-    &-xl {
-      font-size: 18px;
-      line-height: 21px;
+    &_xxl {
+      padding-top: 35px;
+      padding-bottom: 35px;
     }
-    &-xxl {
-      font-size: 20px;
-      line-height: 24px;
+    &_xxxl {
+      padding-top: 40px;
+      padding-bottom: 40px;
     }
-    &-xxxl {
-      font-size: 22px;
-      line-height: 26px;
+    &_hg {
+      padding-top: 45px;
+      padding-bottom: 45px;
     }
-    &-hg {
-      font-size: 24px;
-      line-height: 29px;
+    &_xh {
+      padding-top: 50px;
+      padding-bottom: 50px;
     }
-    &-hgx {
-      font-size: 28px;
-      line-height: 34px;
+    &_xxh {
+      padding-top: 55px;
+      padding-bottom: 55px;
     }
-    &-collosal {
-      font-size: 32px;
-      line-height: 39px;
+    &_xxxh {
+      padding-top: 60px;
+      padding-bottom: 60px;
     }
-    &-collosalX {
-      font-size: 42px;
+    &_gr {
+      padding-top: 65px;
+      padding-bottom: 65px;
+    }
+    &_xg {
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+    &_xxg {
+      padding-top: 75px;
+      padding-bottom: 75px;
+    }
+    &_xxxg {
+      padding-top: 80px;
+      padding-bottom: 80px;
     }
   }
-  
+
+  &--hrsnt {
+    &_sm {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    &_lt {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    &_md {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    &_big {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    &_lg {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+    &_xl {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    &_xxl {
+      padding-left: 35px;
+      padding-right: 35px;
+    }
+    &_xxxl {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+    &_hg {
+      padding-left: 45px;
+      padding-right: 45px;
+    }
+    &_xh {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    &_xxh {
+      padding-left: 55px;
+      padding-right: 55px;
+    }
+    &_xxxh {
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+    &_gr {
+      padding-left: 65px;
+      padding-right: 65px;
+    }
+    &_xg {
+      padding-left: 70px;
+      padding-right: 70px;
+    }
+    &_xxg {
+      padding-left: 75px;
+      padding-right: 75px;
+    }
+  }
+
+  &--left {
+    &_sm {
+      padding-left: 5px;
+    }
+    &_lt {
+      padding-left: 10px;
+    }
+    &_md {
+      padding-left: 15px;
+    }
+    &_big {
+      padding-left: 20px;
+    }
+    &_lg {
+      padding-left: 25px;
+    }
+    &_xl {
+      padding-left: 30px;
+    }
+    &_xxl {
+      padding-left: 35px;
+    }
+    &_xxxl {
+      padding-left: 40px;
+    }
+    &_hg {
+      padding-left: 45px;
+    }
+    &_xh {
+      padding-left: 50px;
+    }
+    &_xxh {
+      padding-left: 55px;
+    }
+    &_xxxh {
+      padding-left: 60px;
+    }
+    &_gr {
+      padding-left: 65px;
+    }
+    &_xg {
+      padding-left: 70px;
+    }
+    &_xxg {
+      padding-left: 75px;
+    }
+    &_xxxg {
+      padding-left: 80px;
+    }
+    &_100px {
+      padding-left: 100px;
+    }
+  }
+
+  &--right {
+    &_sm {
+      padding-right: 5px;
+    }
+    &_lt {
+      padding-right: 10px;
+    }
+    &_md {
+      padding-right: 15px;
+    }
+    &_big {
+      padding-right: 20px;
+    }
+    &_lg {
+      padding-right: 25px;
+    }
+    &_xl {
+      padding-right: 30px;
+    }
+    &_xxl {
+      padding-right: 35px;
+    }
+    &_xxxl {
+      padding-right: 40px;
+    }
+    &_hg {
+      padding-right: 45px;
+    }
+    &_xh {
+      padding-right: 50px;
+    }
+    &_xxh {
+      padding-right: 55px;
+    }
+    &_xxxh {
+      padding-right: 60px;
+    }
+    &_gr {
+      padding-right: 65px;
+    }
+    &_xg {
+      padding-right: 70px;
+    }
+    &_xxg {
+      padding-right: 75px;
+    }
+  }
+
+  &--top {
+    &_sm {
+      padding-top: 5px;
+    }
+    &_lt {
+      padding-top: 10px;
+    }
+    &_md {
+      padding-top: 15px;
+    }
+    &_big {
+      padding-top: 20px;
+    }
+    &_lg {
+      padding-top: 25px;
+    }
+    &_xl {
+      padding-top: 30px;
+    }
+    &_xxl {
+      padding-top: 35px;
+    }
+    &_xxxl {
+      padding-top: 40px;
+    }
+    &_hg {
+      padding-top: 45px;
+    }
+    &_xh {
+      padding-top: 50px;
+    }
+    &_xxh {
+      padding-top: 55px;
+    }
+    &_xxxh {
+      padding-top: 60px;
+    }
+    &_gr {
+      padding-top: 65px;
+    }
+    &_xg {
+      padding-top: 70px;
+    }
+    &_xxg {
+      padding-top: 75px;
+    }
+  }
+
+  &--bottom {
+    &_sm {
+      padding-bottom: 5px;
+    }
+    &_lt {
+      padding-bottom: 10px;
+    }
+    &_md {
+      padding-bottom: 15px;
+    }
+    &_big {
+      padding-bottom: 20px;
+    }
+    &_lg {
+      padding-bottom: 25px;
+    }
+    &_xl {
+      padding-bottom: 30px;
+    }
+    &_xxl {
+      padding-bottom: 35px;
+    }
+    &_xxxl {
+      padding-bottom: 40px;
+    }
+    &_hg {
+      padding-bottom: 45px;
+    }
+    &_xh {
+      padding-bottom: 50px;
+    }
+    &_xxh {
+      padding-bottom: 55px;
+    }
+    &_xxxh {
+      padding-bottom: 60px;
+    }
+    &_gr {
+      padding-bottom: 65px;
+    }
+    &_xg {
+      padding-bottom: 70px;
+    }
+    &_xxg {
+      padding-bottom: 75px;
+    }
+  }
+}
+
+//----line component ----
+.c-line {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+
+  &--auto {
+    width: auto;
+  }
+
+  &--stretch {
+    justify-content: space-between;
+  }
+
+  &--avereged {
+    justify-content: space-around;
+  }
+
+  &--end {
+    justify-content: end;
+  }
+
+  &--up {
+    align-items: self-start;
+  }
+}
+
+.pointer {
+  cursor: pointer;
+  &--hover_gold {
+    &:hover {
+      color: gold;
+    }
+  }
+}
+
+.ref-style {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  &:hover,
+  &:active,
+  &:focus {
+    text-decoration: none;
+  }
+
+
+}
